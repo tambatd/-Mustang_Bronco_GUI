@@ -1,0 +1,12 @@
+{
+  "name": "Mustang_Bronco_GUI",
+  "displayName": "Mustang_Bronco_GUI",
+  "expo": {
+    "name": "Mustang_Bronco_GUI",
+    "slug": "Mustang_Bronco_GUI",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
