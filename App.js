@@ -1,54 +1,51 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
-import { State } from 'react-native-gesture-handler';
-
-
+import {StyleSheet,Image, StatusBar,View, TouchableWithoutFeedback, Keyboard } from 'react-native';
+import validate from "./App_Logic/logic.js"
+import TempButton from './App_Logic/Functions/button'
+import CarName from './App_Logic/Functions/Car' 
+import TextNumb from './App_Logic/Functions/TextInput'
 
 export default function App() {
-  function validate(number){
-    if( (number%3 == 0) && (number%5==0) ){
-      return "MustangBronco "+number;
-    }
-    else if(number%5 == 0){
-      return "Bronco "+number;
-    }
-    else if(number%3 == 0){
-      return "Mustang "+number;
-    }
-    return number;
+  var [number, onChangeNumber] = React.useState(72);
+
+  function Increment(){
+   onChangeNumber(number + 1)
+  }
+  function DecreaseItem(){
+    onChangeNumber(number - 1)
+  }
+  
+  return (
+      <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
+      <View style={styles.container}>
+        <View style={styles.top}><Image
+        style={styles.logo}
+        source={require('./Assets/Visual/Ford.png')}
+      /></View>
+        <StatusBar style="auto" />
+            <CarName  car_name = {validate(number)}/>
+            <TempButton add = {Increment} substract={DecreaseItem} name={number.toString()}/>
+            <TextNumb NumChange={onChangeNumber} Num={number}></TextNumb>
+      </View>
+      </TouchableWithoutFeedback>
+    );
   }
 
-  var [number, onChangeNumber] = React.useState(3);
-  var [text, onChangeText] = React.useState(validate(number));
-
-  return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Text>{validate(number)}</Text>
-   
-      <TextInput
-        style={styles.input}
-        onChangeText={onChangeNumber}
-        value={number}
-        placeholder="useless placeholder"
-        keyboardType="numeric"
-      />
-    </View>
-    
-  );
-}
-
 const styles = StyleSheet.create({
-  input: {
-    height: 40,
-    margin: 12,
-    borderWidth: 1,
-  },
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: 0,
+    backgroundColor: '#d8e1e8'},
+  top:{
+    height: 100,
+    width: 1000,
+    backgroundColor: "#395D7A",
   },
-});
+  logo: {
+    alignContent: "center",
+    resizeMode: "contain",
+    width: "50%",
+    height: "50%",
+    left: "-5%",
+    top: "35%",
+  },
+    });
