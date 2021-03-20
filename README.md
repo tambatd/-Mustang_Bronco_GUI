@@ -1,10 +1,7 @@
 # Mustang Bronco GUI 🚙
-
 This is an example GUI for a Ford Bronco temperature control app 
-
-## Requirements
-
-
+![App Image]
+(https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/UI.png)
 ## Installation
 Usage of this app requires NPM, Node, and the EXPO client
 
@@ -29,23 +26,20 @@ Then after successfully installing the expo cli, navigate to the codes folder an
 ```
 npm install
 ```
-
 This should install all the NPM modules required to use this app.
+If done correctly, the app should start on your local network 🎉
 
-Finally type
 
+## Usage
+To start the app locally, you must navigate to the project directory, and type
 ```
 expo start 
 ```
 
-If done corrently, the app should start on your local network 🎉
+After you have installed all the necessary components, all you need to do is install the expo ios app and launch the app from the app! 
 
+If you're using Mac OS and have XCode installed, you should be able to launch this app via emulation. 
 
-## Usage
-
-After you've installed all the necisary components, all you need to do is install the expo ios app, and launch the app from the app! 
-
-If you're using Mac OS and have xcode installed, you should be able to launch this app via emulation 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
