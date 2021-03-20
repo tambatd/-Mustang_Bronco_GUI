@@ -1,7 +1,7 @@
 # Mustang Bronco GUI 🚙
 This is an example GUI for a Ford Bronco temperature control app 
 ![App Image]
-(https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/UI.png)
+(https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/UI.png?raw=true)
 ## Installation
 Usage of this app requires NPM, Node, and the EXPO client
 
