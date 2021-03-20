@@ -67,6 +67,9 @@ After you have installed all the necessary components, all you need to do is ins
 
 If you're using Mac OS and have XCode installed, you should be able to launch this app via emulation. 
 
+## Known Issues 
+1. Bottom value does not update with top increment 
+2. If a decimal point value is typed into the bottom box, the increment button will add one to the ending decimal value 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
