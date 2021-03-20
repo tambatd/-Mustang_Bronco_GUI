@@ -1,6 +1,34 @@
 # Mustang Bronco GUI 🚙
-This is an example GUI for a Ford Bronco temperature control app 
-![image](https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/UI.png?raw=true =100x20)
+![image](https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/UI.png?raw=true)
+
+This is an example React Native app, to showcase a GUI for the 2021 Ford Bronco's temperature control app.
+
+The top right box raises or lowers the temperature by 1, while the bottom box is used to type in a number.
+
+## App logic
+The algorithm to decide which word gets printed out can be found in logic.js
+
+```Javascript
+function validate(number){
+    if( (number%3 == 0) && (number%5==0) ){
+      return "MustangBronco";
+    }
+    else if(number%5 == 0){
+      return "Bronco";
+    }
+    else if(number%3 == 0){
+      return "Mustang";
+    }
+    return number;
+  }
+```
+## App Design
+The app design is based off of the 2021 Ford Bronco’s User Interface.
+
+I wanted to create something to simulate a realistic product, that incorporates the design philosophies of the Ford Bronco.
+
+![image](https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/f2572ce2-8935-41ac-938a-0ffa0b757aa9-ebe5ea1006755895f0e497bb2703-1.jpg?raw=true)
+
 ## Installation
 Usage of this app requires NPM, Node, and the EXPO client
 
