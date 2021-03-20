@@ -3,6 +3,24 @@
 
 This is an example GUI for a Ford Bronco temperature control app 
 
+## App logic
+The algorithm to decide which word gets printed out can be found in logic.js
+
+```Javascript
+function validate(number){
+    if( (number%3 == 0) && (number%5==0) ){
+      return "MustangBronco";
+    }
+    else if(number%5 == 0){
+      return "Bronco";
+    }
+    else if(number%3 == 0){
+      return "Mustang";
+    }
+    return number;
+  }
+```
+
 ## Installation
 Usage of this app requires NPM, Node, and the EXPO client
 
