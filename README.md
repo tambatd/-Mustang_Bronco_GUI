@@ -21,7 +21,8 @@ function validate(number){
   }
 ```
 ## App Design
-The app design is based off of the 2021 Ford Bronco’s User Interface. I wanted to create something to simulate the design philosophies of the Ford Bronco.
+The app design is based off of the 2021 Ford Bronco’s User Interface.
+I wanted to create something to simulate a realistic product, that incorporates the design philosophies of the Ford Bronco
 
 ![image](https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/f2572ce2-8935-41ac-938a-0ffa0b757aa9-ebe5ea1006755895f0e497bb2703-1.jpg?raw=true)
 
