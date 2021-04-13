@@ -5,6 +5,7 @@ This is an example React Native app, to showcase a GUI for the 2021 Ford Bronco'
 
 The top right box raises or lowers the temperature by 1, while the bottom box is used to type in a number.
 
+*NOTE: YOU CAN TYPE IN ANY POSITIVE NUMBER INTO THE BOTTOM BOX FOR TESTING PURPOSES*
 ## App logic
 The algorithm to decide which word gets printed out can be found in logic.js
 
@@ -67,6 +68,9 @@ After you have installed all the necessary components, all you need to do is ins
 
 If you're using Mac OS and have XCode installed, you should be able to launch this app via emulation. 
 
+## Known Issues 
+1. Bottom value does not update with top increment 
+2. If a decimal point value is typed into the bottom box, the increment button will add one to the ending decimal value 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
