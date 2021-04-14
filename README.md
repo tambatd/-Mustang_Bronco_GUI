@@ -1,5 +1,7 @@
 # Mustang Bronco GUI 🚙
 ![image](https://raw.githubusercontent.com/tambatd/-Mustang_Bronco_GUI/master/React_Native/Assets/Visual/UI.png)
+
+
 This is an example React Native app, to showcase a GUI for the 2021 Ford Bronco's temperature control app.
 
 The top right box raises or lowers the temperature by 1, while the bottom box is used to type in a number.
