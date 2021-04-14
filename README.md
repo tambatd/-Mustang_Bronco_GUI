@@ -1,5 +1,5 @@
 # Mustang Bronco GUI 🚙
-![image](https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/UI.png?raw=true)
+![image](https://raw.githubusercontent.com/tambatd/-Mustang_Bronco_GUI/master/React_Native/Assets/Visual/UI.png)
 
 This is an example React Native app, to showcase a GUI for the 2021 Ford Bronco's temperature control app.
 
@@ -28,7 +28,7 @@ The app design is based off of the 2021 Ford Bronco’s User Interface.
 
 I wanted to create something to simulate a realistic product, that incorporates the design philosophies of the Ford Bronco.
 
-![image](https://github.com/tambatd/-Mustang_Bronco_GUI/blob/master/Assets/Visual/f2572ce2-8935-41ac-938a-0ffa0b757aa9-ebe5ea1006755895f0e497bb2703-1.jpg?raw=true)
+![image](https://raw.githubusercontent.com/tambatd/-Mustang_Bronco_GUI/master/React_Native/Assets/Visual/f2572ce2-8935-41ac-938a-0ffa0b757aa9-ebe5ea1006755895f0e497bb2703-1.jpg)
 
 ## Installation
 Usage of this app requires NPM, Node, and the EXPO client
